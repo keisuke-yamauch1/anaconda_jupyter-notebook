@@ -1,0 +1,8 @@
+version: '3'
+services:
+  anaconda:
+    build: .
+    ports:
+      - "8008:8888"
+    volumes:
+      - .:/app
